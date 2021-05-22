@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import firebaseClient from "../firebaseClient";
+import firebaseClient from "../pages/firebaseClient";
 import firebase from "firebase/app";
 import "firebase/auth";
 import Container from "../components/Container";
 import Navbar from "../components/navbar";
 import Head from 'next/head';
-import {useAuth} from '../auth';
+import {useAuth} from '../pages/auth';
 
 export default function Login({ props }) {
   firebaseClient();
