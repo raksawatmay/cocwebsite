@@ -44,6 +44,7 @@ export default function Login({ props }) {
       <br/>
       <div>   
           <button
+          className={styles.btn}
             isDisabled={email === "" || pass === ""}
             onClick={async () => {
               await firebase
@@ -60,8 +61,9 @@ export default function Login({ props }) {
             Log in
           </button>
       </div>
-      <div className={styles.btnnewaccount}><br/><div><b><ins><i>Don't have an account?</i></ins></b><br/>
+      <div className={styles.btnnewaccount}><br/><div className={styles.text}><b><ins><i>Don't have an account?</i></ins></b><br/>
       <button
+            className={styles.btn1}
             isDisabled={email === "" || pass === ""}
             onClick={async () => {
               await firebase
