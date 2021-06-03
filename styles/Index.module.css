@@ -1,0 +1,29 @@
+.boxleft{
+    width: 60%;
+    height: 620px;
+    border: 15px solid gray;
+    padding: 20px 20px;
+    margin: 50px;
+    background-color: lightgray;
+    position: inherit;
+}
+.Container{
+    background-image: url(https://mpics.mgronline.com/pics/Images/559000005764805.JPEG);
+    background-position: right top;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+    padding: 0px;
+    display: flex;
+    background-color: lightgray;
+    opacity: 1;
+}
+.boxright{
+    width: 40%;
+    height: auto;
+    padding: 20px 20px;
+    margin: 100px;
+    position: initial;
+}

@@ -7,6 +7,7 @@ import Container from "../components/Container";
 import Navbar from "../components/navbar";
 import Head from 'next/head';
 
+
 export default function NewAccount({session}) {
   firebaseClient();
   if(session){
@@ -19,7 +20,7 @@ export default function NewAccount({session}) {
         </Head>
         <Navbar/>
         <div>
-          <h1>Welcome Admin Mode </h1>          
+          <h1>Welcome Admin Mode </h1>     
         <div>
         {session}
         <p>You do anything now you are Authenticated</p>

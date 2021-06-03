@@ -1,51 +1,63 @@
 #topbar{
     margin: 0;
     padding: 0;
+    position: fixed;
+  }
+  .title{
+    color: #33c0ca;
+  }
+  .col{
+    margin: 20px;
+    padding: 30px;
   }
   ol.navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-size: 20px;
-    background-color: #333;
+    font-size: 30px;
+    background-color: #152534;
   }
+  ol.navbar li {float:right}
   ol.navbar li {float:left}
-  
+  ol.navbar li img{
+    width: auto;
+    height: 100px;
+    text-shadow: 0px 0px 10px red, 0 0 5px blue;
+  }
   ol.navbar li a {
       display: block;
       color: white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 10px 20px;
       text-decoration: none;
     }
     
   ol.navbar li a:hover:not(.active) {background-color:  lightblue;}
   
-  ol.navbar li.right {float: right; text-shadow: 0px 0px 10px plum, 0 0 5px blue;}
+  ol.navbar li.right {
+    float: right; 
+    text-shadow: 0px 0px 10px red, 0 0 5px blue;
+  }
   ol.navbar li.text{
+    float: right;
     text-shadow: 0px 0px 10px orangered, 0 0 5px blue;
   }
   ol.navbar li.text1{
+    float: right;
     text-shadow: 0px 0px 10px yellow, 0 0 5px blue;
   }
   ol.navbar li.text2{
+    float: right;
     text-shadow: 0px 0px 10px greenyellow, 0 0 5px blue;
   }
   ol.navbar li.text3{
-    text-shadow: 0px 0px 10px lightseagreen, 0 0 5px blue;
-  }
-  ol.navbar li.text4{
+    float: right;
     text-shadow: 0px 0px 10px lightblue, 0 0 5px blue;
   }
-  ol.navbar li.text5{
-    text-shadow: 0px 0px 10px lightskyblue, 0 0 5px blue;
-  }
-  ol.navbar li.text6{
-    text-shadow: 0px 0px 10px red, 0 0 5px blue;
-  }
-    
+  
   @media screen and (max-width: 600px) {
       ol.navbar li.right, 
       ol.navbar li {float: none;}
   }
+ 
