@@ -5,6 +5,8 @@
   }
   .title{
     color: #33c0ca;
+    font-size: 1.5rem;
+    margin-top: 10px;
   }
   .col{
     margin: 20px;
@@ -15,7 +17,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #152534;
   }
   ol.navbar li {float:right}
