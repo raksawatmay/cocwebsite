@@ -3,34 +3,29 @@ import Container from "../components/Container";
 import Navbar from "../components/navbar";
 import styles from "../styles/New.module.css";
 
-export default function New() {
+export default function About() {
     return (
         <Container>
             <Head>
                 <link rel="shortcut icon" href="https://computing.psu.ac.th/th/wp-content/uploads/2018/03/COC_logo.png" ></link>
-                <title>NEW - College of Computing PSU Phuket</title>
+                <title>ABOUT - College of Computing PSU Phuket</title>
                 <meta charset="UTF-8"></meta>
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             </Head>
             <Navbar />
             <div className={styles.row}>
                 <div className={styles.side}>
-                    <h2>About Me</h2>
-                    <h5>Photo of me:</h5>
-                    <div className={styles.fakeimg}>Image</div>
-                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                    <h3>More Text</h3>
-                    <p>Lorem ipsum dolor sit ame.</p>
-                    <div className={styles.fakeimg1}>Image</div><br />
-                    <div className={styles.fakeimg1}>Image</div><br />
-                    <div className={styles.fakeimg1}>Image</div><br />
-                    <div className={styles.fakeimg1}>Image</div><br />
-                    <div className={styles.fakeimg1}>Image</div><br />
-                    <div className={styles.fakeimg1}>Image</div><br />
-                    <div className={styles.fakeimg1}>Image</div><br />
-                    <h3>More Text</h3>
-                    <p>Lorem ipsum dolor sit ame.</p>
-                    <div className={styles.fakeimg2}>Image</div><br />
+                    <center><h2><ins>หลักสูตร (PROGRAM) </ins></h2></center>
+                    <h3>ปริญญาตรี (Bachelor Degree)</h3>
+                    <div className={styles.fakeimg1}>สาขาวิชาวิศวกรรมดิจิทัล (หลักสูตรนานาชาติ)</div><br />
+                    <div className={styles.fakeimg1}>สาขาวิชาธุรกิจดิจิทัล (หลักสูตรนานาชาติ)</div><br />
+                    <div className={styles.fakeimg1}>สาขาวิชาการคอมพิวเตอร์</div><br />
+                    <div className={styles.fakeimg1}>สาขาวิชาเทคโนโลยีสารสนเทศ</div><br />
+                    <div className={styles.fakeimg1}>สาขาวิชาวิศวกรรมซอฟต์แวร์</div><br />
+                    <div className={styles.fakeimg1}>สาขาวิชาธุรกิจอิเล็กทรอนิกส์</div><br />
+                    <div className={styles.fakeimg1}>สาขาวิชาวิศวกรรมคอมพิวเตอร์</div><br />
+                    <h3>ปริญญาโท (Master Degree)</h3>
+                    <div className={styles.fakeimg2}>สาขาวิชาการคอมพิวเตอร์ (หลักสูตรนานาชาติ)</div><br/>
                 </div>
                 <div className={styles.main}>
                     <h2>TITLE HEADING</h2>

@@ -5,7 +5,7 @@
 
 .side {
     flex: 30%;
-    background-color: #f1f1f1;
+    background-color: rgb(216, 239, 253);
     padding: 20px;
 }
 
@@ -16,10 +16,22 @@
     height:200px;
 }
 .fakeimg1 {
-    background-color: #aaa;
+    background-color: lightseagreen;
     width: 100%;
     padding: 20px;
     height: 60px;
+}
+.fakeimg1:hover{
+    background-color: rgb(110, 201, 196);
+}
+.fakeimg2 {
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+}
+.fakeimg2:hover{
+    background-color: powderblue;
 }
 .main {
     flex: 70%;
