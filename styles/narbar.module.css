@@ -58,8 +58,8 @@
     text-shadow: 0px 0px 10px lightblue, 0 0 5px blue;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
       ol.navbar li.right, 
-      ol.navbar li {float: none;}
+      ol.navbar li {float: none; flex-direction: column;}
   }
  

@@ -1,12 +1,3 @@
-.boxleft{
-    width: 60%;
-    height: 620px;
-    border: 15px solid gray;
-    padding: 20px 20px;
-    margin: 50px;
-    background-color: lightgray;
-    position: inherit;
-}
 .Container{
     background-image: url(https://mpics.mgronline.com/pics/Images/559000005764805.JPEG);
     background-position: right top;
@@ -20,10 +11,51 @@
     background-color: lightgray;
     opacity: 1;
 }
-.boxright{
-    width: 40%;
-    height: auto;
+.boxleft{
+    flex: 70%;
+    width: 50%;
+    height: 50%; 
+    margin: 50px;
+    margin-top: 90px;
     padding: 20px 20px;
-    margin: 100px;
-    position: initial;
+    background-color: lightgray;
+    border: 15px solid gray;
+}
+
+.boxright{
+    flex: 52%;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+.boxright1{
+    flex: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3.6%;
+    opacity: 1;
+    position: absolute;
+}
+.text{
+    color: black;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 5px red;
+}
+.qrcode{
+    background-color: lightgrey;
+    opacity: 1;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2e4f6e;
+    color: white;
+}
+.list{
+    width: 50%;
+    height: 50%; 
+    margin: 50px;
 }

@@ -1,0 +1,39 @@
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    height:200px;
+}
+.fakeimg1 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+}
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2e4f6e;
+    color: white;
+}
+@media (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
