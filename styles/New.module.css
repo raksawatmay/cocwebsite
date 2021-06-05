@@ -19,19 +19,21 @@
     background-color: lightseagreen;
     width: 100%;
     padding: 20px;
-    height: 60px;
+    height: 80px;
 }
 .fakeimg1:hover{
     background-color: rgb(110, 201, 196);
+    color: white;
 }
 .fakeimg2 {
     background-color: lightskyblue;
     width: 100%;
     padding: 20px;
-    height: 60px;
+    height: 80px;
 }
 .fakeimg2:hover{
     background-color: powderblue;
+    color: white;
 }
 .main {
     flex: 70%;
@@ -43,6 +45,21 @@
     text-align: center;
     background: #2e4f6e;
     color: white;
+}
+.text{
+    color: black;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 5px orangered;
+}
+.text1{
+    color: green;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px lightgreen;
+}
+.text2{
+    color: blue;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgb(70, 42, 235);
 }
 @media (max-width: 700px) {
     .row, .navbar {   

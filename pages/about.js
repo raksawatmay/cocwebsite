@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Container from "../components/Container";
 import Navbar from "../components/navbar";
 import styles from "../styles/New.module.css";
+import {BiCaretDownCircle} from "react-icons/bi";
 
 export default function About() {
     return (
@@ -15,17 +16,17 @@ export default function About() {
             <Navbar />
             <div className={styles.row}>
                 <div className={styles.side}>
-                    <center><h2><ins>หลักสูตร (PROGRAM) </ins></h2></center>
-                    <h3>ปริญญาตรี (Bachelor Degree)</h3>
-                    <div className={styles.fakeimg1}>สาขาวิชาวิศวกรรมดิจิทัล (หลักสูตรนานาชาติ)</div><br />
-                    <div className={styles.fakeimg1}>สาขาวิชาธุรกิจดิจิทัล (หลักสูตรนานาชาติ)</div><br />
-                    <div className={styles.fakeimg1}>สาขาวิชาการคอมพิวเตอร์</div><br />
-                    <div className={styles.fakeimg1}>สาขาวิชาเทคโนโลยีสารสนเทศ</div><br />
-                    <div className={styles.fakeimg1}>สาขาวิชาวิศวกรรมซอฟต์แวร์</div><br />
-                    <div className={styles.fakeimg1}>สาขาวิชาธุรกิจอิเล็กทรอนิกส์</div><br />
-                    <div className={styles.fakeimg1}>สาขาวิชาวิศวกรรมคอมพิวเตอร์</div><br />
-                    <h3>ปริญญาโท (Master Degree)</h3>
-                    <div className={styles.fakeimg2}>สาขาวิชาการคอมพิวเตอร์ (หลักสูตรนานาชาติ)</div><br/>
+                    <center><div className={styles.text}><h2><ins>หลักสูตร (PROGRAM) </ins></h2></div></center>
+                    <div className={styles.text1}>&nbsp;<BiCaretDownCircle/> <b>ปริญญาตรี (Bachelor Degree)</b></div><br/>
+                    <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-eng-digital-engineer-international-program/">สาขาวิชาวิศวกรรมดิจิทัล (หลักสูตรนานาชาติ)<br/>DIGITAL ENGINEERING INTERNATIONAL</a></div><br />
+                    <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-sc-digital-business-international-program/">สาขาวิชาธุรกิจดิจิทัล (หลักสูตรนานาชาติ)<br/>DIGITAL BUSINESS INTERNATIONAL</a></div><br />
+                    <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-sc-computing/">สาขาวิชาการคอมพิวเตอร์</a><br/>COMPUTING</div><br />
+                    <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-sc-information-technology/">สาขาวิชาเทคโนโลยีสารสนเทศ<br/>INFORMATION TECHNOLOGY</a></div><br />
+                    <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-sc-software-engineering/">สาขาวิชาวิศวกรรมซอฟต์แวร์<br/>SOFTWARE ENGINEERING</a></div><br />
+                    <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-sc-electronic-business/">สาขาวิชาธุรกิจอิเล็กทรอนิกส์<br/>ELECTRONIC BUSINESS</a></div><br />
+                    <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-eng-computer-engineering/">สาขาวิชาวิศวกรรมคอมพิวเตอร์<br/>COMPUTER ENGINEERING</a></div><br />
+                    <div className={styles.text2}>&nbsp;<BiCaretDownCircle/> <b>ปริญญาโท (Master Degree)</b></div><br/>
+                    <div className={styles.fakeimg2}><a href="https://computing.psu.ac.th/th/ms-computing/">สาขาวิชาการคอมพิวเตอร์ (หลักสูตรนานาชาติ)<br/>COMPUTING INTERNATIONAL</a></div><br/>
                 </div>
                 <div className={styles.main}>
                     <h2>TITLE HEADING</h2>

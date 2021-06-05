@@ -18,7 +18,6 @@ export default function NewAccount({session}) {
           <title>Admin - College of Computing PSU Phuket</title>
           <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         </Head>
-        <Navbar/>
         <div>
           <h1>Welcome Admin Mode </h1>     
         <div>
