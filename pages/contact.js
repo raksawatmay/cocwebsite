@@ -8,7 +8,7 @@ export default function Contact() {
         <Container>
             <Head>
                 <link rel="shortcut icon" href="https://computing.psu.ac.th/th/wp-content/uploads/2018/03/COC_logo.png" ></link>
-                <title>NEW - College of Computing PSU Phuket</title>
+                <title>CONTACT- College of Computing PSU Phuket</title>
                 <meta charset="UTF-8"></meta>
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             </Head>
