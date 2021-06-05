@@ -1,0 +1,84 @@
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: rgb(216, 239, 253);
+    padding: 20px;
+}
+
+.fakeimg {
+    text-align: justify;
+    background-color: #aaa;
+    font-size: 1.08rem;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    text-indent: 50px;
+    background-image: url(https://cdn.hipwallpaper.com/i/91/45/xuiH9j.jpg);
+    background-repeat: repeat;
+}
+.fakeimg1 {
+    background-color: lightseagreen;
+    width: 100%;
+    padding: 20px;
+    height: 85px;
+}
+.fakeimg1:hover{
+    background-color: rgb(110, 201, 196);
+    color: white;
+}
+.fakeimg2 {
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 20px;
+    height: 85px;
+}
+.fakeimg2:hover{
+    background-color: powderblue;
+    color: white;
+}
+.main {
+    flex: 70%;
+    background-color: lightcyan;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2e4f6e;
+    color: white;
+}
+.text{
+    color: black;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 5px orangered;
+}
+.text1{
+    color: green;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px lightgreen;
+}
+.text2{
+    color: blue;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgb(70, 42, 235);
+}
+.pic{
+    text-align: center;
+}
+.pic1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.psu{
+    margin-top: 10px;
+}
+@media (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }

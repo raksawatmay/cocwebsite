@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Container from "../components/Container";
 import Navbar from "../components/navbar";
-import styles from "../styles/new.module.css";
+import styles from "../styles/contact.module.css";
 
 export default function New() {
     return (

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Container from "../components/Container";
 import Navbar from "../components/navbar";
-import styles from "../styles/New.module.css";
+import styles from "../styles/about.module.css";
 import {BiCaretDownCircle} from "react-icons/bi";
 
 export default function About() {
