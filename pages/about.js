@@ -27,18 +27,21 @@ export default function About() {
                     <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-eng-computer-engineering/">สาขาวิชาวิศวกรรมคอมพิวเตอร์<br/>COMPUTER ENGINEERING</a></div><br />
                     <div className={styles.text2}>&nbsp;<BiCaretDownCircle/> <b>ปริญญาโท (Master Degree)</b></div><br/>
                     <div className={styles.fakeimg2}><a href="https://computing.psu.ac.th/th/ms-computing/">สาขาวิชาการคอมพิวเตอร์ (หลักสูตรนานาชาติ)<br/>COMPUTING INTERNATIONAL</a></div><br/>
+                    <div className={styles.psu}><img src="https://computing.psu.ac.th/th/wp-content/uploads/2017/12/24250970_10155824563997999_935115677_o-768x576.jpg" alt="PSU Phuket" width={415} height={300}></img></div>
                 </div>
                 <div className={styles.main}>
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Dec 7, 2017</h5>
-                    <div className={styles.fakeimg}>Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Sep 2, 2017</h5>
-                    <div className={styles.fakeimg}>Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <h2>HISTORY (ประวัติคณะ)</h2>
+                    <div className={styles.fakeimg}>สภามหาวิทยาลัยสงขลานครินทร์ เห็นชอบให้มีการจัดตั้งวิทยาลัยการคอมพิวเตอร์ (College of Computing) ณ วิทยาเขตภูเก็ต เมื่อวันที่ 20 สิงหาคม พ.ศ. 2560 โดยรวมหน่วยงานที่มีการจัดการศึกษาด้านคอมพิวเตอร์ 2 หน่วยเข้าด้วยกัน คือ <br/>(1) ภาควิชาวิศวกรรมคอมพิวเตอร์ วิทยาเขตภูเก็ต คณะวิศวกรรมศาสตร์ ภายใต้โครงการการผลิตบัณฑิตวิศวกรรมคอมพิวเตอร์ ระยะเวลา 15 ปี (พ.ศ. 2545- พ.ศ. 2560) มีนักศึกษาภายใต้โครงการ 16 รุ่น โดยบัณฑิตที่จบมีคุณวุฒิ วศ.บ (วิศวกรรมคอมพิวเตอร์)  <br/> 
+                    (2) สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร คณะเทคโนโลยีและสิ่งแวดล้อม จัดตั้งปี พ.ศ. 2548 ผลิตบัณฑิตคุณวุฒิ วท.บ. จำนวน 3 สาขาวิชา (เทคโนโลยีสารสนเทศ วิศวกรรมซอฟแวร์ ธุรกิจอิเล็กทรอนิกส์) และระดับบัณฑิตศึกษา จำนวน 15 รุ่น เพื่อให้แนวทางการจัดการศาสตร์ด้านคอมพิวเตอร์มีความเป็นเลิศ 
+                    <br/>ดังนั้นการตั้งวิทยาลัยการคอมพิวเตอร์มีเป้าหมายเพื่อบริหารการจัดการศึกษา วิจัย และบริการวิชาการในศาสตร์ด้านระบบดิจิทัลและคอมพิวเตอร์
+                    <br/>โดยตอบสนองยุทธศาสตร์ชาติ ระยะ 20 ปี มุ่งเน้นงานวิชาการและวิจัยการคำนวณและประมวลผลในเทคโนโลยีดิจิทัล การพัฒนานวัตกรรมและธุรกิจดิจิทัล การวิเคราะห์ข้อมูลขนาดใหญ่ ส่งเสริมผู้ประกอบการใหม่ และการพัฒนาเมืองภูเก็ตอัจฉริยะ พร้อมทั้งการจัดการเรียนการสอนด้านคอมพิวเตอร์ ภายในวิทยาเขตภูเก็ต</div>
+                    <div className={styles.pic1}>
+                         <img src="https://sv1.picz.in.th/images/2020/05/04/Us0MSn.png" alt="Color" width={600} height={300}></img>
+                    </div>
+                    <h2>VISION & MISSION (วิสัยทัศน์ & พันธกิจ)</h2>
+                    <div className={styles.pic}>
+                        <img src="https://sv1.picz.in.th/images/2020/05/03/UPHviP.png" alt="Vision&Mission" width={450} height={600}></img>
+                    </div>
                 </div>
             </div>
             <div className={styles.footer}>
