@@ -5,7 +5,7 @@ const Navbar = () => (
     <div className={styles.topbar}>
     <ol className={styles.navbar}>
         <li className={styles.left}><a href="/"><img src="https://sv1.picz.in.th/images/2021/06/03/PvpvGf.png" alt="logo"></img></a></li>
-        <li className={styles.title}><marquee  direction="down" scrollamount="5" width="100%"><h2>CoC PSU Phuket</h2></marquee></li>
+        <li className={styles.title}><h2>CoC PSU Phuket</h2></li>
         <div className={styles.col} >
         <li className={styles.right}><a href="/login">&nbsp;&nbsp;<FcServices/>&nbsp;<b>Admin</b></a></li>
         <li className={styles.text3}><a href="/contact"><b>Contact</b></a></li>

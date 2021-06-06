@@ -1,0 +1,77 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabbar{
+    background-color: lightseagreen;
+    min-height: 100vh;
+    width: 20%;
+    margin: 0;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.icon{
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.sec{
+    text-align: start;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.main{
+    flex: 70%;
+    background-color: rgb(157, 219, 216);
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    text-shadow: 2px 2px 5px greenyellow;
+}
+.btnlogout{
+    margin-right: 10px;
+    text-align: end;
+}
+.logout{
+    margin-top: 10px;
+}
+.btn{
+    background-color: red;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.btn {
+      background-color: red;
+      color: white;
+      font-size: 1rem;
+      margin-top: 10px;
+      border: 2px solid red;
+  }
+.btn:hover{
+      background-color: brown;
+      color: white;
+      font-size: 1.2rem;
+      margin-top: 10px;
+      border: 2px solid brown;
+  }
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2e4f6e;
+    color: white;
+}
+@media (max-width: 700px) {
+    .tabbar {   
+      flex-direction: row;
+    }
+  }
