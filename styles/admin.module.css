@@ -38,25 +38,18 @@
 }
 .btn{
     background-color: red;
-    border-radius: 10%;
-    border: none;
+    border-radius: 50%;
     color: white;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 4px 2px;
     cursor: pointer;
-  }
-  
-.btn {
-      background-color: red;
-      color: white;
-      font-size: 1rem;
-      margin-top: 10px;
-      border: 2px solid red;
-  }
+    margin-top: 10px;
+    border: 2px solid red;
+}
 .btn:hover{
       background-color: brown;
       color: white;
@@ -64,11 +57,65 @@
       margin-top: 10px;
       border: 2px solid brown;
   }
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #2e4f6e;
+.btncreate{
+    background-color: green;
+    border: none;
     color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btncreate:hover{
+    background-color: lightgreen;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 50px;
+}
+.btnintent{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.btnintent:hover{
+    background-color: rgb(241, 204, 134);
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 1px;
+}
+.btndownload{
+    background-color: rgb(221, 16, 214);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btndownload:hover{
+    background-color: orchid;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 50px;
 }
 @media (max-width: 700px) {
     .tabbar {   

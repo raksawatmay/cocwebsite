@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Container from "../components/Container";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import styles from "../styles/about.module.css";
 import {BiCaretDownCircle} from "react-icons/bi";
 
@@ -44,9 +45,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className={styles.footer}>
-                <h4>© 2021-2022 by Siriluck Raksawat CoE PSU Phuket.</h4>
-            </div>
+            <Footer/>
         </Container>
     )
 }

@@ -5,15 +5,18 @@ import "firebase/auth";
 import Container from "../components/Container";
 import Navbar from "../components/navbar";
 import Head from 'next/head';
-import {useAuth} from '../AuthFirebase/auth';
 import styles from "../styles/login.module.css";
 import {BiEnvelope, BiKey} from "react-icons/bi";
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 export default function Login({ props }) {
   firebaseClient();
+  toast.configure();
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
-  const {user} = useAuth();
 
   const loginForm = () => (
     <div className={styles.form}>
@@ -51,9 +54,15 @@ export default function Login({ props }) {
                 .auth()
                 .signInWithEmailAndPassword(email, pass)
                 .then(function () {
+                  toast.success('Login Success!!',{
+                    position: toast.POSITION.TOP_CENTER,
+                    autoClose:1000})
                   window.location.href = "/admin";
                 })
                 .catch(function (error) {
+                  toast.warn('Login Fail',{
+                    position: toast.POSITION.TOP_CENTER,
+                    autoClose:3000})
                   return error.message;
                 });
             }}
@@ -70,9 +79,15 @@ export default function Login({ props }) {
                 .auth()
                 .createUserWithEmailAndPassword(email, pass)
                 .then(function () {
+                  toast.success('Register Success!!',{
+                    position: toast.POSITION.TOP_CENTER,
+                    autoClose:1000})
                   window.location.href = "/admin";
                 })
                 .catch(function (error) {
+                  toast.error('Register Please',{
+                    position: toast.POSITION.TOP_CENTER,
+                    autoClose:3000})
                   return error.message;
                 });
             }}
@@ -93,15 +108,13 @@ export default function Login({ props }) {
     </Head>
     <Navbar/>
     <div className={styles.Container}>
-    <div className={styles.user}><p>{`User ID: ${user ? user.uid : "No user singed in"}`}</p></div>
-    <div ><center>
+    <center>
     <img src="https://cdn.iconscout.com/icon/free/png-256/administrator-2166550-1836773.png" alt="QRCode-bot" width={120} height={120}></img>
       <h1><ins>Admin Login</ins></h1>
       </center>
       <div>
     {loginForm()}
     </div>  
-    </div>
     </div>
   </Container>
   );

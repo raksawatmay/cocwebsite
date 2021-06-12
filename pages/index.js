@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import Container from "../components/Container";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import styles from "../styles/Index.module.css";
 import YouTube from 'react-youtube-embed';
+
 
 export default function Home() {
   return (
@@ -25,9 +27,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.footer}>
-        <h4>© 2021-2022 by Siriluck Raksawat CoE PSU Phuket.</h4>
-      </div>
+      <Footer/>
     </Container>
   )
 
