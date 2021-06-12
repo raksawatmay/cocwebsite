@@ -28,7 +28,7 @@ export default function About() {
                     <div className={styles.fakeimg1}><a href="https://computing.psu.ac.th/th/b-eng-computer-engineering/">สาขาวิชาวิศวกรรมคอมพิวเตอร์<br/>COMPUTER ENGINEERING</a></div><br />
                     <div className={styles.text2}>&nbsp;<BiCaretDownCircle/> <b>ปริญญาโท (Master Degree)</b></div><br/>
                     <div className={styles.fakeimg2}><a href="https://computing.psu.ac.th/th/ms-computing/">สาขาวิชาการคอมพิวเตอร์ (หลักสูตรนานาชาติ)<br/>COMPUTING INTERNATIONAL</a></div><br/>
-                    <div className={styles.psu}><img src="https://computing.psu.ac.th/th/wp-content/uploads/2017/12/24250970_10155824563997999_935115677_o-768x576.jpg" alt="PSU Phuket" width={415} height={300}></img></div>
+                    <div className={styles.psu}><img src="https://sv1.picz.in.th/images/2021/06/12/sNvbrf.jpg" alt="PSU Phuket" width={415} height={300}></img></div>
                 </div>
                 <div className={styles.main}>
                     <h2>HISTORY (ประวัติคณะ)</h2>
