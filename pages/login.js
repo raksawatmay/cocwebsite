@@ -102,7 +102,7 @@ export default function Login({ props }) {
   return (
     <Container>
     <Head>
-      <link rel="shortcut icon" href="https://computing.psu.ac.th/th/wp-content/uploads/2018/09/FavIcon.jpg"></link>
+      <link rel="shortcut icon" href="https://sv1.picz.in.th/images/2021/06/12/sNJRED.png"></link>
       <title>LOGIN - College of Computing PSU Phuket</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     </Head>

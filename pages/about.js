@@ -9,7 +9,7 @@ export default function About() {
     return (
         <Container>
             <Head>
-                <link rel="shortcut icon" href="https://computing.psu.ac.th/th/wp-content/uploads/2018/03/COC_logo.png" ></link>
+                <link rel="shortcut icon" href="https://sv1.picz.in.th/images/2021/06/12/sNJRED.png" ></link>
                 <title>ABOUT - College of Computing PSU Phuket</title>
                 <meta charset="UTF-8"></meta>
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>

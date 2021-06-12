@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Container>
       <Head>
-        <link rel="shortcut icon" href="https://computing.psu.ac.th/th/wp-content/uploads/2018/03/COC_logo.png" ></link>
+        <link rel="shortcut icon" href="https://sv1.picz.in.th/images/2021/06/12/sNJRED.png" ></link>
         <title>HOME - College of Computing PSU Phuket</title>
         <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -23,12 +23,11 @@ export default function Home() {
         <div className={styles.boxright}>
           <div className={styles.boxright1}>
             <div className={styles.text}><h1><ins>Chat with Cocy</ins></h1></div>
-            <div className={styles.qrcode}><img src="https://sv1.picz.in.th/images/2021/06/03/PGSz79.png" alt="QRCode-bot" width={420} height={500}></img></div>
+            <div className={styles.qrcode}><img src="https://sv1.picz.in.th/images/2021/06/12/sNG8fD.png" alt="QRCode-bot" width={420} height={500}></img></div>
           </div>
         </div>
       </div>
       <Footer/>
     </Container>
   )
-
 }
