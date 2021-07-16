@@ -30,9 +30,12 @@ export default function Home() {
       <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
       <df-messenger
         intent="WELCOME"
-        chat-title="CoC_Chatbot"
+        chat-icon="https://sv1.picz.in.th/images/2021/07/16/2WMFEe.png"
+        chat-title="Cocy Bot"
         agent-id="7c9f26d7-dba5-493e-9d07-1c4403d833f7"
         language-code="th"
+        //wait-open="true"
+        //expand="true"
       ></df-messenger>
       <Footer />
     </Container>

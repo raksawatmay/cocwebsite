@@ -74,6 +74,7 @@ export default function NewAccount({ session }) {
                 }}>Sing Out</button>
             </div>
             <div className={styles.icon}><FaUserCircle /></div>
+            <center><h1>Login By</h1></center>
             <div className={styles.sec}><p>Your E-mail is <b>{session}</b></p></div>
             <center>
               <div><button className={styles.btncreate} onClick={btncreate}><BsFolderPlus />  Create Intent</button></div>
@@ -87,13 +88,6 @@ export default function NewAccount({ session }) {
           </div>
         </div>
         <Footer />
-        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-        <df-messenger
-          intent="WELCOME"
-          chat-title="CoC_Chatbot"
-          agent-id="7c9f26d7-dba5-493e-9d07-1c4403d833f7"
-          language-code="th"
-        ></df-messenger>
       </Container>
     );
 
