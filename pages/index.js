@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import styles from "../styles/Index.module.css";
 import YouTube from 'react-youtube-embed';
+import ReactPlayer from 'react-player';
 
 
 export default function Home() {
@@ -19,7 +20,12 @@ export default function Home() {
       <div className={styles.Container}>
         <div className={styles.boxleft}>
           <center><h1><ins><b>Welcome to CoC PSU Phuket</b></ins></h1></center>
-          <YouTube id='pHcJi6AuxEE'></YouTube> <br /><br /></div>
+          <iframe src='https://www.youtube.com/embed/RlNIS4ez9mg?autoplay=1&mute=0'
+            width="750" 
+            height="400"
+            frameBorder='0'
+            allowFullScreen="1"/><br /><br />
+        </div>
         <div className={styles.boxright}>
           <div className={styles.boxright1}>
             <div className={styles.text}><h1><ins>Chat with Cocy</ins></h1></div>
@@ -34,8 +40,8 @@ export default function Home() {
         chat-title="Cocy Bot"
         agent-id="7c9f26d7-dba5-493e-9d07-1c4403d833f7"
         language-code="th"
-        //wait-open="true"
-        //expand="true"
+      //wait-open="true"
+      //expand="true"
       ></df-messenger>
       <Footer />
     </Container>
