@@ -3,9 +3,6 @@ import Container from "../components/Container";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import styles from "../styles/Index.module.css";
-import YouTube from 'react-youtube-embed';
-import ReactPlayer from 'react-player';
-
 
 export default function Home() {
   return (
