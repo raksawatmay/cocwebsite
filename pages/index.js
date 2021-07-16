@@ -20,7 +20,7 @@ export default function Home() {
       <div className={styles.Container}>
         <div className={styles.boxleft}>
           <center><h1><ins><b>Welcome to CoC PSU Phuket</b></ins></h1></center>
-          <iframe src='https://www.youtube.com/embed/RlNIS4ez9mg?autoplay=1&mute=0'
+          <iframe src='https://www.youtube.com/embed/RlNIS4ez9mg?autoplay=1&mute=1'
             width="750" 
             height="400"
             frameBorder='0'
