@@ -4,3 +4,8 @@
     background: #2e4f6e;
     color: white;
 }
+@media only screen and (max-width: 480px) {
+    .site-title {
+    font-size: 25px;
+    }
+   }

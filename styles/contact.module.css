@@ -19,3 +19,8 @@
     background-color: lightgrey;
     width: 380px;
 }
+@media only screen and (max-width: 480px) {
+    .site-title {
+    font-size: 25px;
+    }
+   }
