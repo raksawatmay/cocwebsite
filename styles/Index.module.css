@@ -53,14 +53,18 @@
     height: 50%; 
     margin: 50px;
 }
-df-messenger {
-   --df-messenger-bot-message: #878fac;
-   --df-messenger-button-titlebar-color: #df9b56;
-   --df-messenger-chat-background-color: #fafafa;
-   --df-messenger-font-color: white;
-   --df-messenger-send-icon: #878fac;
-   --df-messenger-user-message: #479b3d;
-  }
+.df{
+    --df-messenger-bot-message: #54a3bc;
+        --df-messenger-button-titlebar-color: #42a5f5;
+        --df-messenger-button-titlebar-font-color: white;
+        --df-messenger-chat-background-color: #8ddcea;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #54a3bc;
+        --df-messenger-user-message: #67a272;
+        --df-messenger-input-box-color: #42a5f5;
+        --df-messenger-input-font-color: #ffffff;
+        --df-messenger-input-placeholder-font-color: #ffffff;
+}
 @media only screen and (max-width: 480px) {
     .site-title {
     font-size: 25px;
