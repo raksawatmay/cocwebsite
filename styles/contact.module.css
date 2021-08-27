@@ -19,6 +19,18 @@
     background-color: lightgrey;
     width: 380px;
 }
+.df{
+    --df-messenger-bot-message: #54a3bc;
+        --df-messenger-button-titlebar-color: #42a5f5;
+        --df-messenger-button-titlebar-font-color: white;
+        --df-messenger-chat-background-color: #8ddcea;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #54a3bc;
+        --df-messenger-user-message: #67a272;
+        --df-messenger-input-box-color: #42a5f5;
+        --df-messenger-input-font-color: #ffffff;
+        --df-messenger-input-placeholder-font-color: #ffffff;
+}
 @media only screen and (max-width: 480px) {
     .site-title {
     font-size: 25px;
