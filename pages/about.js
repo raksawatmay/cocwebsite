@@ -47,7 +47,8 @@ export default function About() {
             </div>
             <Footer />
             <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-            <df-messenger
+            <div className={styles.df}>
+                <df-messenger
                 intent="Welcome"
                 chat-icon="https://sv1.picz.in.th/images/2021/07/16/2WMFEe.png"
                 chat-title="CoC_Chatbot"
@@ -55,7 +56,7 @@ export default function About() {
                 language-code="th"
                 wait-open="true"
                 //expand="true"
-            ></df-messenger>
+            ></df-messenger></div>
         </Container>
     )
 }
