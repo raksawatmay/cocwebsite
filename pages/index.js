@@ -26,7 +26,7 @@ export default function Home() {
         <div className={styles.boxright}>
           <div className={styles.boxright1}>
             <div className={styles.text}><h1><ins>Chat with Cocy</ins></h1></div>
-            <div className={styles.qrcode}><img src="https://sv1.picz.in.th/images/2021/06/12/sNG8fD.png" alt="QRCode-bot" width={420} height={500}></img></div>
+            <div className={styles.qrcode}><img src="https://sv1.picz.in.th/images/2021/06/12/sNG8fD.png" alt="QRCode-bot" width={300} height={400}></img></div>
           </div>
         </div>
       </div>
