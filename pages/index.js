@@ -38,8 +38,8 @@ export default function Home() {
         chat-title="Cocy Bot"
         agent-id="7c9f26d7-dba5-493e-9d07-1c4403d833f7"
         language-code="th"
-      //wait-open="true"
-      //expand="true"
+        wait-open="false"
+        expand="false"
       ></df-messenger></div>
       <Footer />
     </Container>
