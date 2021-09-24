@@ -55,7 +55,7 @@ export default function About() {
                 agent-id="7c9f26d7-dba5-493e-9d07-1c4403d833f7"
                 language-code="th"
                 wait-open="true"
-                expand="false"
+                //expand="true"
             ></df-messenger></div>
         </Container>
     )
